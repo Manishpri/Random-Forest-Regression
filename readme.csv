@@ -1,0 +1,33 @@
+              			Random Forest Regression
+
+
+1. I created the file in jupyter notebook. And the file name is “random_forest_regression.ipynb” and code
+executed under linux system(ubuntu).
+
+2. The library i used
+a. numpy,
+b. pandas,
+c. matplotlib,
+d. sklearn
+
+3. I used python3 in jupyter notebook.
+
+4. Running instruction.
+a. All the library should be preinstalled which i used.
+b. Keep the file “random_forest_regression.ipynb” and “petrol_consumption.csv” at same place.
+c. Open jupyter notebook by writing “jupyter notebook” on terminal.
+d. It is better to keep both file in home directory.
+
+5. The new file is created after running the code named “petrol_consumption_csv” which keeps
+the Average_income of their corresponding columns name “ petrol_consumption”
+
+6. I used scikit learn to train our model “RandomForestRegressor”.
+7.Data preprocessing-
+ a. To divide the data into attributes and labels
+
+ b. Once the data is divided into attributes and labels, the final preprocessing step in to devide         data into train and test set. Luckily the model_selection library of the scikit-Learn library.contains the train_test_split method that allows us to seamlessly divide data into trainimg ans test sets.
+
+
+9. Mean Absolute Error,Mean Square Error , Root Means Square Error are the most commonly used metrics for classification tasks. Scikit-Learn’s metrics library contain the classification_report method,which can be readily used to find out the values for these important metrics.
+
+
